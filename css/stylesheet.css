@@ -1,0 +1,324 @@
+@charset "utf-8";
+/* CSS Document */
+body 
+{
+  margin: 0;
+  padding: 0;
+/*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
+  background: #333;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* The only rule that matters */
+#video-background
+{
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+header ul
+{
+	
+	width: 95%;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+	margin-top: 5%;
+	color: white;
+	font-size: 50px;
+	
+}
+
+header ul li
+{
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 8px;
+}
+
+header ul li a
+{
+	text-decoration: none;
+	color: white;
+	font-family: Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	/*font-family: Oswald, Sans-serif; */
+	letter-spacing: 2px;
+	font-size: 36px;
+}
+
+header ul li a:active
+{
+	color: #D4FFBC;
+	/*color: #8CFFA0;*/
+}
+
+header ul li a:hover
+{
+	color: #D4FFBC;
+	transition-duration: .7s;
+}
+
+
+footer
+{
+	color: white;
+	text-align: center;
+	position: fixed;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+
+#block
+{
+	width: 20%;
+	color: white;
+	text-align: center;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	padding-left: 5px;
+	padding-right: 5px;
+	float: left;
+	margin-left: 10%;
+}
+
+#block img
+{
+	border-radius: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#block p
+{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+}
+
+#right-ban
+{
+	background: rgba(99, 175, 255, .5);
+	width: 60%;
+	height: 330px;
+	float: left;
+	background-image: url(../images/mamimi.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 30px;
+	border-radius: 1%;
+}
+
+#right-ban h2
+{
+	text-align: center;
+	color: white;
+	font-size: 500%;
+	font-family: Verdana;
+	margin-top: 90px;
+	opacity: 1.5;
+}
+
+#right-about
+{
+	width: 60%;
+	background: rgba(255,255,255,.5);
+	height: 450px;
+	float: left;
+	text-align: center;
+	border-radius: 1%;
+}
+
+.aboutpg
+{
+	background-image: url(../images/mamimisadclean.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.updatespg
+{
+	background-image: url(../images/mamimi.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#updatespg
+{
+	width: 50%;
+	height: 80%;
+	margin: 0 auto;
+}
+
+#updatespg header ul li a
+{
+
+	font-size: 30px;
+}
+
+.blog-left
+{
+	color: white;
+	width: 70%;
+	height: 150px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	background: rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+
+.blog-right
+{
+	color: white;
+	width: 70%;
+	height: 150px;
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	background: rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+
+.t1
+{
+	background-image: url(../images/web1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.t2
+{
+	background-image: url(../images/web2.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.t3
+{
+	background-image: url(../images/web3.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.t4
+{
+	background-image: url(../images/web4.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.t5
+{
+	background-image: url(../images/web5.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.t6
+{
+	background-image: url(../images/web6.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+form
+{
+	width: 25%;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+}
+
+form input
+{
+	width: 80%;
+}
+
+form textarea
+{
+	width: 80%;
+}
+
+form #submit
+{
+	width: 25%;
+	margin-left: 60%;
+	background-color: rgba(0, 145, 140, 1);
+	color: white;
+	margin-bottom: 4%;
+	border: none;
+	padding: 2px;
+	border-radius: 3px;
+}
+.fa 
+{
+  padding: 5px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover 
+{
+    opacity: 0.7;
+}
+
+.fa-facebook 
+{
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram 
+{
+  background: #125688;
+  color: white;
+}
+
+.fa-rss 
+{
+  background: #ff6600;
+  color: white;
+}
+.subscribe
+{
+	border: 1px solid black;
+	padding: 5px 15px 5px 15px;
+	border-radius: 5px;
+	background: #dd4b39;
+	color: white;
+	font-family:  "serif";
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+.subscribe:hover
+{
+	opacity: 0.7;
+	transition-duration: .3s;
+}
